@@ -1,0 +1,30 @@
+/* frontend/src/App.css */
+* { box-sizing: border-box; }
+body, html, #root { height: 100%; margin: 0; font-family: Inter, Roboto, Arial, sans-serif; }
+
+.app-root { display: flex; flex-direction: column; height: 100vh; }
+.app-header { background: linear-gradient(90deg,#667eea,#764ba2); color: white; padding: 0.8rem 1.4rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.app-header h1 { margin: 0; font-size: 1.25rem; }
+
+.app-main { display: flex; flex: 1; min-height: 0; }
+.left-panel { width: 360px; padding: 1rem; background: #fff; border-right: 1px solid #eee; overflow-y: auto; }
+.map-panel { flex: 1; height: 100%; }
+
+.booking-card { background: #fafafa; padding: 12px; border-radius: 8px; border: 1px solid #eee; margin-bottom: 12px; }
+.booking-card h3 { margin-top: 0; }
+.booking-card label { display: block; margin-bottom: 8px; font-size: 0.9rem; }
+.booking-card input { width: 100%; padding: 8px; margin-top: 6px; margin-bottom: 8px; border: 1px solid #ddd; border-radius: 6px; }
+.coord-row { display: flex; gap: 8px; }
+.coord-row > div { flex: 1; }
+.small-btn-row { display:flex; gap:8px; margin-top:6px; }
+.small-btn-row button { padding:6px 8px; border-radius:6px; border:1px solid #ddd; background:#fff; cursor:pointer; }
+.action-row { display:flex; gap:8px; margin-top:8px; }
+.book-btn { flex:1; background: linear-gradient(90deg,#667eea,#764ba2); color:white; padding:10px; border: none; border-radius:8px; cursor:pointer; }
+.cancel-btn { padding:10px; border-radius:8px; border:1px solid #ddd; background:white; cursor:pointer; }
+
+.stats-card { background: #fff; padding: 12px; border-radius: 8px; border: 1px solid #eee; margin-top: 12px; }
+.stats-card h3 { margin-top:0; }
+
+.ride-map { height: 100%; width: 100%; }
+
+.leaflet-container { height: 100%; width: 100%; }
